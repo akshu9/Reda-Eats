@@ -1,4 +1,3 @@
-
 .button1{
     background-color: blueviolet;
     block-size: 30px;
@@ -31,10 +30,12 @@ p{
     color: rgb(245, 112, 4);
 }
 body{
-    background-image:url("images/fathul-abrar-ZqREbckCRQA-unsplash.jpg");
+    background-image: url("images/fathul-abrar-ZqREbckCRQA-unsplash.jpg");
     background-size: 100%;
+    background-repeat: repeat-y;
     padding: 87px;
     margin: 50px;
+    
 
 }
 ul{
@@ -190,7 +191,7 @@ footer{
 }
 .button4{
     background-color: yellow;
-    block-size: 70px;
+    block-size: 80px;
     font-family: 'Baloo Bhai 2', cursive;
 
 }
@@ -205,4 +206,46 @@ footer{
     font-family: 'Baloo Bhai 2', cursive;
 }
 
+@media only screen and (max-width: 840px){
+    ul{
+    right: -6;
+    top: 0;
+    width: 100%
+    z-index 1;
+    }
+    li{
+        float: left;
+    }
+    h3{
+       text-align: center;
+    }
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        text-align: center;
+      }
+      body{
+          background-size: 280%;
+          
+      }
+      .button2{
+          block-size: 30px;
+      }
+      .button3{
+          block-size: 40px;
+      }
+      .button4{
+          block-size: 80px;
+      }
+      #contact-box form{
+        width: 600%;
+    }
+      footer{
+          padding: 8px 387px ;
+          display: flex;
+      }
+}
 
